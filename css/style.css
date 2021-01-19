@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.sidenav {
+  height: 100vh;
+  width: 20rem;
+  padding: 1rem 1rem 0 2rem;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+.logo-box {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.item {
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+}
+.fas {
+  font-size: 1.3rem;
+}
+a::before {
+  display: inline-block;
+  width: 8.75px;
+}
+.link1 {
+  color: rgb(114, 114, 230);
+}
+.link2 {
+  color: rgb(37, 37, 187);
+}
+.link3 {
+  color: orangered;
+}
+.link4 {
+  color: rgb(255, 230, 1);
+}
+.link5 {
+  color: red;
+}
+.link6 {
+  color: rgb(101, 208, 250);
+}
+.link7 {
+  color: tomato;
+}
+.link {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 2rem;
+}
+.active {
+  color: rgba(0, 0, 0, 0.8);
+}
